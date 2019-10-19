@@ -1,0 +1,95 @@
+## Basic Configuration
+
+baseurl = "https://Vaziri-Mahmoud.github.io/"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Mahmoud Zaman Vaziri"
+title = "MZV"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+#disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Mahmoud Zaman Vaziri"
+intro = "Programmer"
+description = "Python, Neural Network, Machine Learning, Arduino, Raspberry pi"
+authorimage = "yDNjuQfI_400x400.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "<username>"
+#instagram = "<username>"
+#xing = "<username>"
+#linkedin = "<username>"
+twitter = "<username>"
+#facebook = "<username>"
+#google = "<username>"
+#googlescholar = "<account_id>"
+stackoverflow = "<username>"
+#lastfm = "<username>"
+#goodreads = "<username>"
+#gitlab = "<username>"
+#bitbucket = "<username>"
+#fivehundredpx = "<username>"
+#flickr = "<username>"
+#foursquare = "<username>"
+#hackernews = "<username>"
+#kickstarter = "<username>"
+#patreon = "<username>"
+pintrest = "<username>"
+#steam = "<username>"
+#reddit = "<username>"
+#snapchat = "<username>"
+#youtube = "<channelid>"
+#keybase = "<username>"
+#twitch = "<username>"
+#soundcloud = "<username>"
+#tumblr = "k"
+#strava = "<username>"
+#skype = "<username>"
+#telegram = "<username>"
+#whatsapp = "<username>"
+email = "you@example.com"
+
+## Extras
+[params.extra]
+copyright = "🄯 2019. Mahmoud Zaman Vaziri. [Some Rights Reserved](https://creativecommons.org/licenses/by-sa/4.0/)."
+poweredby = true
+highlightjs = true
+socialmarkup = true
+toc = true
+displayrssicon = false
+
+## Main Menu
+#[[menu.main]]
+#    name = "blog"
+#    weight = 100
+#    identifier = "blog"
+#    url = "/blog/"
+[[menu.main]]
+    name = "Resume"
+    identifier = "Resume"
+    weight = 150
+    url = "/about/"
+#[[menu.main]]
+#    name = "coderag"
+#    identifier = "coderag"
+#    weight = 300
+#    url = "/coderag/"
